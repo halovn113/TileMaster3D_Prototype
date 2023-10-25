@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - DataEditor
     Assembly-CSharp.dll:
     - AudioContainer
     - GameManager
