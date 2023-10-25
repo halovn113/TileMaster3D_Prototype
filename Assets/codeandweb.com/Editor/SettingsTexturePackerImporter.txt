@@ -1,0 +1,11 @@
+version: 2
+tpsheetFileNames:
+- Assets/Resources/Sprites/UI-0.tpsheet
+- Assets/Resources/Sprites/UI-1.tpsheet
+textureFileNames:
+- Assets/Resources/Sprites/UI-0.png
+- Assets/Resources/Sprites/UI-1.png
+normalmapFileNames:
+- 
+- 
+enableDebugOutput: 0

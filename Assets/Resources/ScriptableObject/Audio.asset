@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1acd78ac399675f4b9d11a631bfb5143, type: 3}
+  m_Name: Audio
+  m_EditorClassIdentifier: 
+  audioInfos:
+  - audioName: CLICK
+    audio: {fileID: 8300000, guid: 6a935b71349db7b42912703bbb95f2ee, type: 3}
+  - audioName: WIN
+    audio: {fileID: 8300000, guid: 632585a92a9e42b4b97b29f97b11245f, type: 3}
+  - audioName: LOSE
+    audio: {fileID: 8300000, guid: 45a420ee43fcb6044ba7fb12031fbd93, type: 3}
+  - audioName: PLACED
+    audio: {fileID: 8300000, guid: 5141e8dad336d69448e7b82a2aefcfca, type: 3}
+  - audioName: CORRECT
+    audio: {fileID: 8300000, guid: 396330130c27b3643acf0328d661e6d7, type: 3}

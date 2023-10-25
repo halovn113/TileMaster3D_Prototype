@@ -1,0 +1,665 @@
+/target:library
+/out:Temp/Unity.InputSystem.dll
+/nowarn:0169
+/nowarn:0649
+/refout:Temp/Unity.InputSystem.dll.ref
+/unsafe
+/deterministic
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:8.0
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
+/reference:Assets/codeandweb.com/Editor/TexturePackerImporter.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEditor.Graphs.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll
+/reference:"H:/Projects/Unity/VGAMES STUDIO Test/Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
+/reference:"H:/Projects/Unity/VGAMES STUDIO Test/Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+/reference:"H:/Projects/Unity/VGAMES STUDIO Test/Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/log4netPlastic.dll"
+/reference:"H:/Projects/Unity/VGAMES STUDIO Test/Library/PackageCache/com.unity.collab-proxy@2.0.4/Lib/Editor/PlasticSCM/unityplastic.dll"
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIServiceModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsCommonModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll
+/reference:H:/Engines/Unity/2020.3.48f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll
+/define:CSHARP_7_3_OR_NEWER
+/define:CSHARP_7_OR_LATER
+/define:DEBUG
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_BURST_AOT
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_EGL
+/define:ENABLE_ENGINE_CODE_STRIPPING
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_INPUT_SYSTEM
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_LZMA
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_UNITYTLS
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MONO
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_NETWORK
+/define:ENABLE_ONSCREEN_KEYBOARD
+/define:ENABLE_PHYSICS
+/define:ENABLE_PROFILER
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_RUNTIME_PERMISSIONS
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:ENABLE_SPATIALTRACKING
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_UNET
+/define:ENABLE_UNITYADS_RUNTIME
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_VIDEO
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_WWW
+/define:INCLUDE_DYNAMIC_GI
+/define:NET_STANDARD_2_0
+/define:PLATFORM_ANDROID
+/define:PLATFORM_EXTENDS_VULKAN_DEVICE
+/define:PLATFORM_HAS_MULTIPLE_SWAPCHAINS
+/define:PLATFORM_SUPPORTS_MONO
+/define:TRACE
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_2019_4_OR_NEWER
+/define:UNITY_2020
+/define:UNITY_2020_1_OR_NEWER
+/define:UNITY_2020_2_OR_NEWER
+/define:UNITY_2020_3
+/define:UNITY_2020_3_48
+/define:UNITY_2020_3_OR_NEWER
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_ANDROID
+/define:UNITY_ANDROID_API
+/define:UNITY_ANDROID_SUPPORTS_SHADOWFILES
+/define:UNITY_ASSERTIONS
+/define:UNITY_CAN_SHOW_SPLASH_SCREEN
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:UNITY_HAS_GOOGLEVR
+/define:UNITY_HAS_TANGO
+/define:UNITY_INCLUDE_TESTS
+/define:UNITY_INPUT_SYSTEM_ENABLE_PHYSICS
+/define:UNITY_INPUT_SYSTEM_ENABLE_PHYSICS2D
+/define:UNITY_INPUT_SYSTEM_ENABLE_UI
+/define:UNITY_INPUT_SYSTEM_ENABLE_VR
+/define:UNITY_INPUT_SYSTEM_ENABLE_XR
+/define:UNITY_TEAM_LICENSE
+/define:UNITY_UNITYADS_API
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\Composites\AxisComposite.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\Composites\ButtonWithOneModifier.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\Composites\ButtonWithTwoModifiers.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\Composites\OneModifierComposite.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\Composites\TwoModifiersComposite.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\Composites\Vector2Composite.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\Composites\Vector3Composite.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\IInputActionCollection.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\IInputInteraction.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\InputAction.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\InputActionAsset.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\InputActionChange.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\InputActionMap.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\InputActionParameters.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\InputActionPhase.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\InputActionProperty.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\InputActionRebindingExtensions.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\InputActionReference.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\InputActionSetupExtensions.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\InputActionState.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\InputActionTrace.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\InputActionType.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\InputBinding.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\InputBindingComposite.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\InputBindingCompositeContext.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\InputBindingResolver.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\InputControlScheme.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\InputInteractionContext.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\Interactions\HoldInteraction.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\Interactions\MultiTapInteraction.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\Interactions\PressInteraction.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\Interactions\SlowTapInteraction.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Actions\Interactions\TapInteraction.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\AssemblyInfo.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\AnyKeyControl.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\AxisControl.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\ButtonControl.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\CommonUsages.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\DeltaControl.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\DiscreteButtonControl.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\DoubleControl.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\DpadControl.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\InputControl.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\InputControlAttribute.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\InputControlExtensions.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\InputControlLayout.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\InputControlLayoutAttribute.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\InputControlLayoutChange.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\InputControlList.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\InputControlPath.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\InputProcessor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\IntegerControl.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\KeyControl.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\Processors\AxisDeadzoneProcessor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\Processors\ClampProcessor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\Processors\CompensateDirectionProcessor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\Processors\CompensateRotationProcessor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\Processors\EditorWindowSpaceProcessor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\Processors\InvertProcessor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\Processors\InvertVector2Processor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\Processors\InvertVector3Processor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\Processors\NormalizeProcessor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\Processors\NormalizeVector2Processor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\Processors\NormalizeVector3Processor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\Processors\ScaleProcessor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\Processors\ScaleVector2Processor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\Processors\ScaleVector3Processor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\Processors\StickDeadzoneProcessor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\QuaternionControl.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\StickControl.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\TouchControl.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\TouchPhaseControl.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\TouchPressControl.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\Vector2Control.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Controls\Vector3Control.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Commands\DisableDeviceCommand.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Commands\EnableDeviceCommand.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Commands\EnableIMECompositionCommand.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Commands\IInputDeviceCommandInfo.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Commands\InitiateUserAccountPairingCommand.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Commands\InputDeviceCommand.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Commands\QueryCanRunInBackground.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Commands\QueryDimensionsCommand.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Commands\QueryEditorWindowCoordinatesCommand.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Commands\QueryEnabledStateCommand.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Commands\QueryKeyNameCommand.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Commands\QueryKeyboardLayoutCommand.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Commands\QueryPairedUserAccountCommand.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Commands\QuerySamplingFrequencyCommand.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Commands\QueryUserIdCommand.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Commands\RequestResetCommand.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Commands\RequestSyncCommand.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Commands\SetIMECursorPositionCommand.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Commands\SetSamplingFrequencyCommand.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Commands\UseWindowsGamingInputCommand.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Commands\WarpMousePositionCommand.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Gamepad.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Haptics\DualMotorRumble.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Haptics\DualMotorRumbleCommand.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Haptics\IDualMotorRumble.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Haptics\IHaptics.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\ICustomDeviceReset.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\IEventMerger.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\IEventPreProcessor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\IInputUpdateCallbackReceiver.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\ITextInputReceiver.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\InputDevice.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\InputDeviceBuilder.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\InputDeviceChange.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\InputDeviceDescription.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\InputDeviceMatcher.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Joystick.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Keyboard.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Mouse.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Pen.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Pointer.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Precompiled\FastKeyboard.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Precompiled\FastMouse.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Precompiled\FastMouse.partial.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Precompiled\FastTouchscreen.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Remote\InputRemoting.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Remote\RemoteInputPlayerConnection.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Sensor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\Touchscreen.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Devices\TrackedDevice.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\AssetEditor\InputActionAssetManager.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\AssetEditor\InputActionEditorToolbar.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\AssetEditor\InputActionEditorWindow.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\AssetEditor\InputActionPropertiesView.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\AssetEditor\InputActionTreeView.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\AssetEditor\InputActionTreeViewItems.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\AssetEditor\InputBindingPropertiesView.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\AssetEditor\NameAndParameterListView.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\AssetEditor\ParameterListView.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\AssetEditor\PropertiesViewBase.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\AssetImporter\InputActionAssetEditor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\AssetImporter\InputActionCodeGenerator.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\AssetImporter\InputActionImporter.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\AssetImporter\InputActionImporterEditor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\BuildPipeline\LinkFileGenerator.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\ControlPicker\IInputControlPickerLayout.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\ControlPicker\InputControlDropdownItem.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\ControlPicker\InputControlPathEditor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\ControlPicker\InputControlPicker.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\ControlPicker\InputControlPickerDropdown.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\ControlPicker\InputControlPickerState.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\ControlPicker\Layouts\DefaultInputControlPickerLayout.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\ControlPicker\Layouts\TouchscreenControlPickerLayout.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\Debugger\InputActionDebuggerWindow.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\Debugger\InputDebuggerWindow.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\Debugger\InputDeviceDebuggerWindow.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\DeviceSimulator\InputSystemPlugin.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\DownloadableSample.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\EditorInputControlLayoutCache.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\InputDiagnostics.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\InputLayoutCodeGenerator.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\InputParameterEditor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdown.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownDataSource.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownGUI.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownItem.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownState.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\Internal\AdvancedDropdown\AdvancedDropdownWindow.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\Internal\AdvancedDropdown\CallbackDataSource.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\Internal\AdvancedDropdown\MultiLevelDataSource.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\Internal\EditorHelpers.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\Internal\GUIHelpers.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\Internal\InputActionSerializationHelpers.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\Internal\InputControlTreeView.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\Internal\InputEventTreeView.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\Internal\InputStateWindow.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\Internal\SerializedPropertyHelpers.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\Internal\TreeViewHelpers.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\PropertyDrawers\InputActionDrawer.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\PropertyDrawers\InputActionDrawerBase.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\PropertyDrawers\InputActionMapDrawer.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\PropertyDrawers\InputActionPropertyDrawer.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\PropertyDrawers\InputControlPathDrawer.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\Settings\EditorPlayerSettingHelpers.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\Settings\InputEditorUserSettings.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\Settings\InputSettingsBuildProvider.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Editor\Settings\InputSettingsProvider.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Events\ActionEvent.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Events\DeltaStateEvent.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Events\DeviceConfigurationEvent.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Events\DeviceRemoveEvent.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Events\DeviceResetEvent.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Events\IInputEventTypeInfo.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Events\IMECompositionEvent.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Events\InputEvent.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Events\InputEventBuffer.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Events\InputEventListener.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Events\InputEventPtr.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Events\InputEventStream.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Events\InputEventTrace.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Events\StateEvent.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Events\TextEvent.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\IInputDiagnostics.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\IInputRuntime.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\InputAnalytics.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\InputExtensions.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\InputFeatureNames.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\InputManager.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\InputManagerStateMonitors.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\InputMetrics.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\InputSettings.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\InputSystem.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\InputSystemObject.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\InputUpdateType.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\NativeInputRuntime.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\Android\AndroidAxis.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\Android\AndroidGameController.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\Android\AndroidKeyCode.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\Android\AndroidSensors.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\Android\AndroidSupport.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\DualShock\DualShockGamepad.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\DualShock\DualShockGamepadHID.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\DualShock\DualShockSupport.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\DualShock\IDualShockHaptics.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\EnhancedTouch\EnhancedTouchSupport.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\EnhancedTouch\Finger.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\EnhancedTouch\Touch.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\EnhancedTouch\TouchHistory.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\EnhancedTouch\TouchSimulation.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\HID\HID.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\HID\HIDDescriptorWindow.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\HID\HIDParser.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\HID\HIDSupport.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\Linux\LinuxSupport.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\Linux\SDLDeviceBuilder.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\OSX\OSXGameController.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\OSX\OSXSupport.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\OnScreen\OnScreenButton.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\OnScreen\OnScreenControl.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\OnScreen\OnScreenStick.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\OnScreen\OnScreenSupport.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\PlayerInput\DefaultInputActions.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\PlayerInput\InputValue.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\PlayerInput\PlayerInput.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\PlayerInput\PlayerInputEditor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\PlayerInput\PlayerInputManager.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\PlayerInput\PlayerInputManagerEditor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\PlayerInput\PlayerJoinBehavior.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\PlayerInput\PlayerNotifications.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\Steam\IStreamControllerAPI.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\Steam\SteamController.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\Steam\SteamControllerType.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\Steam\SteamHandle.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\Steam\SteamIGAConverter.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\Steam\SteamSupport.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\Switch\SwitchProControllerHID.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\Switch\SwitchSupportHID.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\UI\BaseInputOverride.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\UI\ExtendedAxisEventData.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\UI\ExtendedPointerEventData.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\UI\InputSystemUIInputModule.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\UI\InputSystemUIInputModuleEditor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\UI\MultiplayerEventSystem.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\UI\NavigationModel.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\UI\PointerModel.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\UI\StandaloneInputModuleEditor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\UI\TrackedDeviceRaycaster.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\UI\UISupport.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\UI\VirtualMouseInput.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\UnityRemote\UnityRemoteSupport.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\Users\InputUser.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\Users\InputUserAccountHandle.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\Users\InputUserChange.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\Users\InputUserPairingOptions.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\Users\InputUserSettings.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\WebGL\WebGLGamepad.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\WebGL\WebGLJoystick.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\WebGL\WebGLSupport.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\XInput\IXboxOneRumble.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\XInput\XInputController.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\XInput\XInputControllerWindows.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\XInput\XInputSupport.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\XInput\XboxGamepadMacOS.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\XR\Controls\PoseControl.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\XR\Devices\GoogleVR.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\XR\Devices\Oculus.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\XR\Devices\OpenVR.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\XR\Devices\WindowsMR.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\XR\GenericXRDevice.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\XR\Haptics\BufferedRumble.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\XR\Haptics\GetCurrentHapticStateCommand.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\XR\Haptics\GetHapticCapabilitiesCommand.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\XR\Haptics\SendBufferedHapticsCommand.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\XR\Haptics\SendHapticImpulseCommand.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\XR\TrackedPoseDriver.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\XR\XRLayoutBuilder.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\XR\XRSupport.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\iOS\IOSGameController.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\iOS\InputSettingsiOS.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\iOS\InputSettingsiOSProvider.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\iOS\iOSPostProcessBuild.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\iOS\iOSStepCounter.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Plugins\iOS\iOSSupport.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\State\IInputStateCallbackReceiver.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\State\IInputStateChangeMonitor.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\State\IInputStateTypeInfo.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\State\InputState.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\State\InputStateBlock.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\State\InputStateBuffers.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\State\InputStateHistory.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\ArrayHelpers.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\CSharpCodeHelpers.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\CallbackArray.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\Comparers.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\DelegateHelpers.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\DisplayStringFormatAttribute.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\DynamicBitfield.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\ExceptionHelpers.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\FourCC.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\InlinedArray.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\InternedString.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\JsonParser.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\MemoryHelpers.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\MiscHelpers.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\NameAndParameters.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\NamedValue.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\NumberHelpers.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\Observables\ForDeviceEventObservable.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\Observables\Observable.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\Observables\Observer.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\Observables\SelectManyObservable.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\Observables\SelectObservable.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\Observables\TakeNObservable.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\Observables\WhereObservable.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\OneOrMore.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\PredictiveParser.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\PrimitiveValue.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\ReadOnlyArray.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\SavedState.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\SpriteUtilities.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\StringHelpers.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\Substring.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\TypeHelpers.cs"
+"H:\Projects\Unity\VGAMES STUDIO Test\Library\PackageCache\com.unity.inputsystem@1.5.1\InputSystem\Utilities\TypeTable.cs"

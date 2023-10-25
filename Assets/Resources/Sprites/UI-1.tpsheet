@@ -1,0 +1,15 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:33ac57189018d82b13149971038f1158:01a08ecbfc7e74ee53c0c951c3ad468f:84a79873306a632ba11400e234d4a5d4$
+#
+:format=40300
+:texture=UI-1.png
+:size=1024x2048
+:pivotpoints=enabled
+:borders=disabled
+
+Rounded Rectangle 2 copy 3;1;741;904;1306; 0.5;0.5; 0;0;0;0; 9;867;1294;904;1259;904;48;854;0;63;0;0;32;0;1268;59;1306;838;1306; 7;1;7;8;6;4;5;6;7;4;2;3;4;1;2;4;1;4;7;0;1;8
